@@ -12,7 +12,7 @@
 **End-to-end analysis of brain gene expression across age groups —**  
 **from raw GEO data to ML age classifier and longevity insights.**
 
-[Dataset (NCBI GEO)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11882) · [Sister Project: Heart Disease →](https://github.com/YOUR_USERNAME/aging-biomarker-analyzer)
+[Dataset (NCBI GEO)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE11882) · [Sister Project: Heart Disease →](https://github.com/nikkias/aging-biomarker-analyzer)
 
 </div>
 
@@ -61,19 +61,19 @@ Key Findings
 
 ## 
 
-## !\[Volcano Plot](results/volcano\_plot.png)
+## ![Volcano Plot](results/volcano_plot.png)
 
 ## \*Differentially expressed genes between young and old brain\*
 
 ## 
 
-## !\[Heatmap](results/heatmap.png)
+## ![Heatmap](results/heatmap.png)
 
 ## \*Top 50 variable genes clustered by age group\*
 
 ## 
 
-## !\[Feature Importance](results/feature\_importance.png)
+## ![Feature Importance](results/feature_importance.png)
 
 ## \*Top 15 genes predicting biological age\*
 
@@ -87,8 +87,8 @@ Key Findings
 
 |Model|Accuracy|ROC-AUC|
 |-|-|-|
-|Logistic Regression|\~85%|\~0.90|
-|**Random Forest**|**\~88%**|**\~0.93**|
+|Logistic Regression|\~85.71%|\~0.90|
+|**Random Forest**|**\~89.29%**|**\~0.92**|
 
 > Replace with your actual numbers after running the notebook
 
@@ -106,7 +106,7 @@ Key Findings
 
 ## Cross-Project Insights
 
-> See the \[sister project](https://github.com/YOUR\_USERNAME/aging-biomarker-analyzer) for the clinical heart disease analysis.
+> See the \[sister project](https://github.com/nikkias/aging-biomarker-analyzer) for the clinical heart disease analysis.
 
 The molecular aging signatures in this project directly explain the
 clinical biomarkers that predict heart disease in Project 1:
@@ -142,7 +142,7 @@ project2-gene-expression/
 
 ```bash
 # Clone
-git clone https://github.com/YOUR\_USERNAME/gene-expression-aging.git
+git clone https://github.com/nikkias/gene-expression-aging.git
 cd gene-expression-aging
 
 # Install
